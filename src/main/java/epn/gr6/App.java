@@ -41,7 +41,6 @@ public class App
         List<Genero> generos3 = new ArrayList<>();
         generos3.add(genero1);
 
-
         autor1.setDireccion(direccion1);
         autor2.setDireccion(direccion2);
         autor3.setDireccion(direccion3);
@@ -50,7 +49,7 @@ public class App
         libro2.setGeneros(generos1);
         libro3.setGeneros(generos3);
 
-        /*PersistenciaRegistrar.registrarDireccion(direccion1);
+        PersistenciaRegistrar.registrarDireccion(direccion1);
         PersistenciaRegistrar.registrarDireccion(direccion2);
         PersistenciaRegistrar.registrarDireccion(direccion3);
 
@@ -60,19 +59,17 @@ public class App
 
         PersistenciaRegistrar.registrarAutor(autor1);
         PersistenciaRegistrar.registrarAutor(autor2);
-        PersistenciaRegistrar.registrarAutor(autor3);*/
+        PersistenciaRegistrar.registrarAutor(autor3);
 
         libro1.setAutor(autor1);
         libro2.setAutor(autor2);
         libro3.setAutor(autor3);
         libro4.setAutor(autor2);
 
-        /*PersistenciaRegistrar.registrarLibro(libro1);
+        PersistenciaRegistrar.registrarLibro(libro1);
         PersistenciaRegistrar.registrarLibro(libro2);
         PersistenciaRegistrar.registrarLibro(libro3);
-        PersistenciaRegistrar.registrarLibro(libro4);*/
-
-
+        PersistenciaRegistrar.registrarLibro(libro4);
 
         // Imprimir información de los autores
         System.out.println("Información de los autores:");
